@@ -5,7 +5,6 @@ class ReverseString {
     	char [] s ={'h','e','l','l','o','w'};
     	a.reverseString(s);
     }
-	
 	public void reverseString(char[] s) {
         int limit = 0 ;
         if(s.length%2 == 0){
